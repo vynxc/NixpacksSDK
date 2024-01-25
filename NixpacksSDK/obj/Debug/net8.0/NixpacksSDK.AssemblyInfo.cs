@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NixpacksSDK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c125c264663981130bf74c1cad9def9f9e4d57d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NixpacksSDK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NixpacksSDK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

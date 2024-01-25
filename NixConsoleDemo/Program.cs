@@ -8,10 +8,8 @@ var nix = new Nixpacks();
 var build = nix.Build(new BuildOptions()
 {
     Path = "/home/chayce/RiderProjects/NixpacksSDK/NixAspWebExample",
-    Envs = new List<KeyValuePair<string, string>>()
-    {
-        new KeyValuePair<string, string>("ASPNETCORE_ENVIRONMENT", "Production")
-    }
+    Envs = [new KeyValuePair<string, string>("ASPNETCORE_ENVIRONMENT", "Production"),
+        new KeyValuePair<string, string>("NIXPACKS_CSHARP_SDK_VERSION","7.0.1")]
 });
 var result = await build.Result();
 Console.WriteLine($"Is Broken Image: {result.IsBrokenImage}");

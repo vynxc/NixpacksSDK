@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NixpacksSDK", "NixpacksSDK\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NixConsoleDemo", "NixConsoleDemo\NixConsoleDemo.csproj", "{D7E69BA8-789B-492D-B6B8-EEE699D2FFA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NixAspWebExample", "NixAspWebExample\NixAspWebExample.csproj", "{2893522B-9FC2-4900-8E21-734674654863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D7E69BA8-789B-492D-B6B8-EEE699D2FFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7E69BA8-789B-492D-B6B8-EEE699D2FFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7E69BA8-789B-492D-B6B8-EEE699D2FFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2893522B-9FC2-4900-8E21-734674654863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2893522B-9FC2-4900-8E21-734674654863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2893522B-9FC2-4900-8E21-734674654863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2893522B-9FC2-4900-8E21-734674654863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
